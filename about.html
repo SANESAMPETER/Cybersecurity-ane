@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page </title>
+    <link rel="stylesheet" href="css/about.css" >
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_bootstrap@5.0.2_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="css/cdnjs.cloudflare.com_ajax_libs_font-awesome_5.15.3_css_all.min.css" >
+    <!-- google fonts -->
+    <link rel="stylesheet" href="googlefonts/Libre_Baskerville/LibreBaskerville-Bold.ttf">
+    <link rel="stylesheet" href="googlefonts/Edu_SA_Beginner/EduSABeginner-VariableFont_wght.ttf">
+  
+</head>
+<body>
+
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Your Logo</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="graph.html">Graph</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Language
+            </a>
+            <ul class="dropdown-menu language-selection" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#"><button onclick="changeLanguage('english')">English</button></a></li>
+              <li><a class="dropdown-item" href="#"><button onclick="changeLanguage('hindi')">Hindi</button></a></li>
+              <li><a class="dropdown-item" href="#"><button onclick="changeLanguage('tamil')">Tamil</button></a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" id="searchForm">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+            id="searchInput"
+          />
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- Page content will go here -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Cybersecurity Page</a>
+    </nav>
+  </header>
+
+
+  
+
+  <main class="container mt-5">
+    <section class="cybersecurity-section">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="mb-4">Cybersecurity</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="image-slider">
+            <div class="slide" style="background-image: url('images/AboutImgaes/image1.jpg');">
+              <div class="slide-content">
+                <h2>1. Use Strong and Unique Passwords</h2>
+                <p>
+                  Description of the first cybersecurity tip goes here.
+                  You can provide more details about the importance of using strong and unique passwords to protect sensitive information.
+                </p>
+              </div>
+            </div>
+            <!-- Add more slides for other tips with similar structure -->
+
+          </div>
+        </div>
+
+
+         <div class="col-md-12">
+          <div class="image-slider">
+            <div class="slide" style="background-image: url('images/AboutImgaes/image2.png');">
+              <div class="slide-content">
+                <h2>2. Enable Two-Factor Authentication (2FA) </h2>
+                <p>
+                    Activate 2FA on your accounts whenever possible. This adds an extra layer of security by requiring a second form of verification, such as a code sent to your phone, in addition to your password.
+                </p>
+              </div>
+            </div>
+            <!-- Add more slides for other tips with similar structure -->
+            
+          </div>
+        </div>
+
+
+
+
+
+
+        <div class="col-md-12">
+            <div class="image-slider">
+              <div class="slide" style="background-image: url('images/AboutImgaes/image3.jpg');">
+                <div class="slide-content">
+                  <h2>3. Keep Software and Devices Updated</h2>
+                  <p>
+                    Regularly update your operating system, web browsers, and other software to ensure you have the latest security patches. Also, keep your devices, including smartphones and computers, updated with the latest firmware.
+                  </p>
+                </div>
+              </div>
+              <!-- Add more slides for other tips with similar structure -->
+              
+            </div>
+          </div>
+
+
+
+          <div class="col-md-12">
+            <div class="image-slider">
+              <div class="slide" style="background-image: url('images/AboutImgaes/image4.png');">
+                <div class="slide-content">
+                  <h2>4. Beware of Phishing Attacks: </h2>
+                  <p>
+                    Be cautious of suspicious emails, messages, or links that ask for personal information. Avoid clicking on unknown links and verify the legitimacy of websites before entering sensitive data.
+                  </p>
+                </div>
+              </div>
+              <!-- Add more slides for other tips with similar structure -->
+              
+            </div>
+          </div>
+
+
+
+          <div class="col-md-12">
+            <div class="image-slider">
+              <div class="slide" style="background-image: url('images/AboutImgaes/image5.jpg');">
+                <div class="slide-content">
+                  <h2>5. Use a Firewall and Antivirus Software</h2>
+                  <p>
+                Install a reputable firewall and antivirus software on your devices to protect against malware, viruses, and unauthorized access. Regularly scan your devices for any potential threats.
+                  </p>
+                </div>
+              </div>
+              <!-- Add more slides for other tips with similar structure -->
+              
+            </div>
+          </div>
+
+
+
+
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-light py-3 text-center">
+    &copy; 2023 Cybersecurity Page. All rights reserved.
+  </footer>
+
+
+
+
+    
+    
+    
+  
+  <script src="functionality/script/cdn.jsdelivr.net_npm_@popperjs_core@2.9.2_dist_umd_popper.min.js"></script>
+  <script src="functionality/script/cdn.jsdelivr.net_npm_bootstrap@5.0.2_dist_js_bootstrap.bundle.min.js"></script>
+  <script src="functionality/script/cdn.jsdelivr.net_npm_bootstrap@5.0.2_dist_js_bootstrap.bundle.min.js"></script>
+  <script src="functionality/script/code.jquery.com_jquery-3.5.1.slim.min.js"></script>
+    <script src="script/complaint/about.js"></script>
+    <!-- change language  -->
+    <script src="functionality/script/language/language.js"></script>
+    <script src="script/complaint/navbar.js"></script>
+    <script src="functionality/script/search.js"></script>
+
+</body>
+</html>
